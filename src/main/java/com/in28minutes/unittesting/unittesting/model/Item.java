@@ -13,6 +13,9 @@ public class Item {
     int price;
     int quantity;
 
+    public Item() {
+    }
+
     @Transient
     private int value;
 
