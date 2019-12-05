@@ -34,15 +34,4 @@ public class ItemBusinessServiceTest {
             assertEquals(400, items.get(1).getValue());
         }
 
-//        @Test
-//        public void calculateSumUsingDataService_empty() {
-//            when(dataServiceMock.retrieveAllData()).thenReturn(new int[] {});
-//            assertEquals(0, business.calculateSumUsingDataService());
-//        }
-//
-//        @Test
-//        public void calculateSumUsingDataService_oneValue() {
-//            when(dataServiceMock.retrieveAllData()).thenReturn(new int[] {5});
-//            assertEquals(5, business.calculateSumUsingDataService());
-//        }
     }
