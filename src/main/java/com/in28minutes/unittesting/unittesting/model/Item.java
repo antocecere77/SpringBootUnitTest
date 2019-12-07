@@ -10,8 +10,8 @@ public class Item {
     @Id
     private int id;
     private String name;
-    int price;
-    int quantity;
+    private int price;
+    private int quantity;
 
     public Item() {
     }
